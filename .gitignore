@@ -1,0 +1,21 @@
+# Segredos e credenciais — nunca versionar
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_ed25519*
+id_rsa*
+credenciais*/
+credecnciais*/
+env.download
+
+# Dependências e builds
+node_modules/
+.next/
+dist/
+build/
+
+# Sistema
+.DS_Store
+Thumbs.db
